@@ -1,4 +1,4 @@
-Feature: Log i/out - Smoke Test
+Feature: Log in/out - Smoke Test
 
 Scenario: Startup
 	Given I open the browser
