@@ -13,7 +13,7 @@ Scenario: Login
 	
 Scenario: Logout
 	When I Click The "User" Button
-	When I Click The "Sign out" Button
+	And I Click The "Sign out" Button
 	Then I Verify That "targetSiteEnd" Page Is Loaded
 
 Scenario: Teardown
